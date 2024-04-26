@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utility.css">
+    <link rel="stylesheet" href="css/scrollbar.css">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <div class="container flex bg-black">
+        <div class="left">
+            <div class="home bg-grey rounded m-1 p-1">
+                <div class="logo"><img class="invert" src="images/logo.svg" alt="Spotify"></div>
+                <ul>
+                    <li><img class="invert" src="images/home.svg" alt="Home">Home</li>
+                    <li><img class="invert" src="images/search.svg" alt="Search">Search</li>
+                </ul>
+            </div>
+
+            <div class="library bg-grey rounded m-1 p-1">
+                <div class="heading flex">
+                    <img class="invert" src="images/playlist.svg" alt="playlist">
+                    Your Library
+                </div>
+                <div class="songList">
+                    <ul>
+                    </ul>
+                </div>
+
+                <div class="footer flex">
+                    <a href="www.spotify.com">Legal</a>
+                    <a href="www.spotify.com">Safety & Privacy Center</a>
+                    <a href="www.spotify.com">Privacy & Policy</a>
+                    <a href="www.spotify.com">Cookies</a>
+                    <a href="www.spotify.com">About Ads</a>
+                    <a href="www.spotify.com">Accessibility</a>
+                    <a href="www.spotify.com">Cookies</a>
+                </div>
+            </div>
+        </div>
+        <div class="right m-1 p-1">
+            <div class="header flex bg-grey rounded">
+                <div class="nav">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#fffff"
+                        fill="none">
+                        <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="currentColor"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#fffff"
+                        fill="none">
+                        <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="currentColor"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <div class="buttons">
+                    <button class="signupbtn bg-grey">Sign up</button>
+                    <button class="loginbtn">Log in</button>
+                </div>
+            </div>
+            <div class="spotifyPlaylists bg-grey">
+                <h1>Spotify Playlists</h1>
+                <div class="cardContainer flex">
+                    <div class="card">
+                        <svg width="50" height="50" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="100" cy="100" r="90" fill="#1fdf64" stroke="#333" stroke-width="0" />
+                            <polygon points="70,60 70,140 140,100" fill="#000" />
+                        </svg>
+                        <img src="https://i.scdn.co/image/ab67706f0000000251b56881daed051840fe8fba" alt="">
+                        <h2>Happy Hits!</h2>
+                        <p>Hits to boost your mood and fill you with happiness!</p>
+                    </div>
+                    <div class="card">
+                        <svg width="50" height="50" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="100" cy="100" r="90" fill="#1fdf64" stroke="#333" stroke-width="0" />
+                            <polygon points="70,60 70,140 140,100" fill="#000" />
+                        </svg>
+                        <img src="https://i.scdn.co/image/ab67706f00000002156002a87d53a5e665725990" alt="">
+                        <h2>Easy</h2>
+                        <p>Laid back sounds to see you through your day.</p>
+                    </div>
+                    <div class="card">
+                        <svg width="50" height="50" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="100" cy="100" r="90" fill="#1fdf64" stroke="#333" stroke-width="0" />
+                            <polygon points="70,60 70,140 140,100" fill="#000" />
+                        </svg>
+                        <img src="https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84c183dca1462e72887691f790" alt="">
+                        <h2>Mashup Mix</h2>
+                        <p>The best mashup mixes of all time!</p>
+                    </div>
+                    <div class="card">
+                        <svg width="50" height="50" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="100" cy="100" r="90" fill="#1fdf64" stroke="#333" stroke-width="0" />
+                            <polygon points="70,60 70,140 140,100" fill="#000" />
+                        </svg>
+                        <img src="https://i.scdn.co/image/ab67706f0000000244a93914cbb4ec7ebbf8b802" alt="">
+                        <h2>Warehouse Party</h2>
+                        <p>Dance anthems from the club to your ears!</p>
+                    </div>
+                    <div class="card">
+                        <svg width="50" height="50" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="100" cy="100" r="90" fill="#1fdf64" stroke="#333" stroke-width="0" />
+                            <polygon points="70,60 70,140 140,100" fill="#000" />
+                        </svg>
+                        <img src="https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da840e5034a4cdcc5457cc919de8" alt="">
+                        <h2>Chill Electronics 2024</h2>
+                        <p>Evadez-vous tout en douceur...</p>
+                    </div>
+                    <div class="card">
+                        <svg width="50" height="50" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="100" cy="100" r="90" fill="#1fdf64" stroke="#333" stroke-width="0" />
+                            <polygon points="70,60 70,140 140,100" fill="#000" />
+                        </svg>
+                        <img src="https://i2o.scdn.co/image/ab67706c0000cfa3e74728e218e4ab82d025291d" alt="">
+                        <h2>Deep House 2024</h2>
+                        <p>The best Deep House & Electronic Dance Music for 2024. Updated weekly.</p>
+                    </div>
+                    <div class="card">
+                        <svg width="50" height="50" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="100" cy="100" r="90" fill="#1fdf64" stroke="#333" stroke-width="0" />
+                            <polygon points="70,60 70,140 140,100" fill="#000" />
+                        </svg>
+                        <img src="https://i2o.scdn.co/image/ab67706c0000cfa39841a44e7ade20bf5a2e33a4" alt="">
+                        <h2>Drum and Bass</h2>
+                        <p>The complete Drum and Bass list 2024.</p>
+                    </div>
+                    <div class="card">
+                        <svg width="50" height="50" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="100" cy="100" r="90" fill="#1fdf64" stroke="#333" stroke-width="0" />
+                            <polygon points="70,60 70,140 140,100" fill="#000" />
+                        </svg>
+                        <img src="https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da849977f09d9771bfd4d13c5569" alt="">
+                        <h2>Rap Nation</h2>
+                        <p>Rappers get ready for your quests.</p>
+                    </div>
+                    <div class="card">
+                        <svg width="50" height="50" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="100" cy="100" r="90" fill="#1fdf64" stroke="#333" stroke-width="0" />
+                            <polygon points="70,60 70,140 140,100" fill="#000" />
+                        </svg>
+                        <img src="https://mosaic.scdn.co/300/ab67616d00001e02121d5f92cf90576907dfb1e5ab67616d00001e024266d6ca0063c84e3ce095d8ab67616d00001e024f669de38690faf2cf88c245ab67616d00001e02ed32602d9145d51e00a2df72" alt="">
+                        <h2>Indie Playlist</h2>
+                        <p>Indie Playlist</p>
+                    </div>
+                    <div class="card">
+                        <svg width="50" height="50" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="100" cy="100" r="90" fill="#1fdf64" stroke="#333" stroke-width="0" />
+                            <polygon points="70,60 70,140 140,100" fill="#000" />
+                        </svg>
+                        <img src="https://i2o.scdn.co/image/ab67706c0000cfa3fe6b26bf4c86cd0ada634ef7" alt="">
+                        <h2>Majestic Casual</h2>
+                        <p>Featuring tracks by Arlo Parks, Mura Masa, 53 Thieves and Joji.</p>
+                    </div>
+                    <div class="card">
+                        <svg width="50" height="50" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="100" cy="100" r="90" fill="#1fdf64" stroke="#333" stroke-width="0" />
+                            <polygon points="70,60 70,140 140,100" fill="#000" />
+                        </svg>
+                        <img src="https://i.scdn.co/image/ab67706f0000000240c702d5d1c2d21fe5332b29" alt="">
+                        <h2>lush lofi</h2>
+                        <p>The chillest instrumental lofi beats, certified lush.</p>
+                    </div>
+                    <div class="card">
+                        <svg width="50" height="50" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="100" cy="100" r="90" fill="#1fdf64" stroke="#333" stroke-width="0" />
+                            <polygon points="70,60 70,140 140,100" fill="#000" />
+                        </svg>
+                        <img src="https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84214d138b20b8ae5389787a83" alt="">
+                        <h2>Lofi Girl's Favourites</h2>
+                        <p>Lofi Girl's Favourites</p>
+                    </div>
+                    <div class="card">
+                        <svg width="50" height="50" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="100" cy="100" r="90" fill="#1fdf64" stroke="#333" stroke-width="0" />
+                            <polygon points="70,60 70,140 140,100" fill="#000" />
+                        </svg>
+                        <img src="https://charts-images.scdn.co/assets/locale_en/regional/daily/region_in_default.jpg" alt="">
+                        <h2>Top 50 - India</h2>
+                        <p>Your daily update of the most played tracks right now - India.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="playbar">
+                <div class="seekbar">
+                    <div class="circle">
+
+                    </div>
+                </div>
+                <div class="abovebar flex">
+                    <div class="songinfo"></div>
+                    <div class="playbuttons flex justify-content">
+                        <img id="prev" src="images/prevsong.svg" alt="">
+                        <img id="play" src="images/play.svg" alt="">
+                        <img id="next" src="images/nextsong.svg" alt="">
+                    </div>
+                    <div class="songtime"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
