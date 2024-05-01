@@ -4,17 +4,17 @@ This is a simple clone of Spotify, created to demonstrate proficiency in HTML, C
 
 ## Features
 
-- Responsive design
-- Music play and pause functionality
-- Music prev and next functionality
-- Library display
-- Music player with time update
+- **Music play and pause functionality:** Users can play or pause the music using respective buttons
+- **Music prev and next functionality:** Users can play next and previous song using respective buttons
+- **Library display:** The playlist library is displayed on the left hand part of the web app
+- **Music player with time update:** The music player is designed with time update technology
+- **Responsive design:** The web app is resposive in design
 
 ## Technologies used
 
-- HTML
-- CSS
-- Javascript
+- **HTML:** For providing structure to the application
+- **CSS:** For designing the webpage
+- **Javascript:** To add interactivity and dynamic behavior to websites
 
 ## Prerequisites
 
@@ -25,19 +25,11 @@ Before you begin, ensure you have met the following requirements:
 
 ## Installation
 
-To install Spotify Clone, follow these steps:
+To run this project locally, follow these steps:
 
-1. Clone the repo: https://github.com/GawerMayank/spotifyClone.git
-2. cd spotify-clone
+1. Clone the repo (https://github.com/GawerMayank/spotifyClone.git)
+2. Navigate to the project directory `cd spotifyClone`
 3. Open the index.html file in your browser or set up a local server to view the site.
-
-## Usage
-
-After installation, open the index.html in your web browser to start using the Spotify Clone. Navigate through the interface to explore different functionalities:
-
-- Play or pause music using the play button.
-- Play prev and next song by using buttons.
-- Add more songs to the folder and enjoy seamless music
 
 ## Contributing to Spotify Clone
 
