@@ -29,9 +29,11 @@ To run this project locally, follow these steps:
 
 1. Clone the repo (https://github.com/GawerMayank/spotifyClone.git)
 2. Navigate to the project directory `cd spotifyClone`
-3. Open the index.html file in your browser or set up a local server to view the site.
+3. Open the `index.html` file in your browser or set up a local server to view the site.
 
 ## Contributing to Spotify Clone
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 To contribute to Spotify Clone, follow these steps:
 
